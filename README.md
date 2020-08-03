@@ -4,5 +4,7 @@ This was merely a learning exercise for me on the NES. I'd been learning it for 
 It's not the most grand version of Pong out there, but it does have a full 2-Player mode in addition to an AI opponent. 
 This was all written from scratch in Assembly. While there are other homebrew Pong games on the NES(hence the name), none of those were ever even seen by me.
 
+Code assembles with asm6.
+
 Enjoy!
 (Oh and you press select to change to 2-player)
