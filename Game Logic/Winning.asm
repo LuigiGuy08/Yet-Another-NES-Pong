@@ -53,11 +53,6 @@ WinScreenInc:
 WinScreenFinished:
 	ldx #$00
 	
-	lda #%10010000
-	sta $2000
-	lda #%00001110
-	sta $2001
-	
 	;Load in finished background
 	lda $2002
 	lda #>$2000
@@ -82,6 +77,12 @@ WinScreenPlayer1:
 	lda #$01
 	sta $2007
 	
+	;Re-enable drawing
+	lda #%10010000
+	sta $2000
+	lda #%00001110
+	sta $2001
+	
 	lda #>$2000
 	sta $2006
 	lda #<$2000
@@ -96,6 +97,12 @@ WinScreenPlayer2:
 	
 	lda #$02
 	sta $2007
+	
+	;Re-enable drawing
+	lda #%10010000
+	sta $2000
+	lda #%00001110
+	sta $2001
 	
 	lda #>$2000
 	sta $2006
