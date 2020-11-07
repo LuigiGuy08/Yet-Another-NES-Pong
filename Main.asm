@@ -249,9 +249,6 @@ include "Game Logic\Ball.asm"
 include "Game Logic\AI.asm"
 include "Game Logic\Winning.asm"
 
-;Sound Effects
-include "SFX.asm"
-
 ;Graphics Defines	
 	.org $E000
 	
